@@ -61,23 +61,23 @@ function censor({ boundingBox: face }) {
     face.y,
     face.width,
     face.height,
-    // 4 draw args
-    face.x, // where should we start drawing the x and y?
+    
+    face.x, 
     face.y,
     options.SIZE,
     options.SIZE
   );
-  // draw the small face back on, but scale up
+  
 
   const width = face.width * options.SCALE;
   const height = face.height * options.SCALE;
   faceCtx.drawImage(
-    faceCanvas, // source
-    face.x, // where do we start the source pull from?
+    faceCanvas, 
+    face.x, 
     face.y,
     options.SIZE,
     options.SIZE,
-    // Drawing args
+    
     face.x - (width - face.width) / 2,
     face.y - (height - face.height) / 2,
     width,
