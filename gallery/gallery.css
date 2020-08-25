@@ -5,6 +5,7 @@ body {
 }
 h1 {
     text-align: center;
+    font-size: 5.5em;
 }
 
 .galleries {
@@ -91,4 +92,14 @@ h1 {
   
       .modal.open .modalInner {
         transform: translateY(0);
+      }
+     
+      .next {
+          background: #dde7c7;
+          border: none;
+      }
+
+      .prev {
+          background: #dde7c7;
+          border: none;
       }
