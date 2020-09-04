@@ -1,0 +1,19 @@
+{
+  "name": "dadjokes",
+  "version": "1.0.0",
+  "description": "I am taking a JavaScript course and I want to upload to Github what I learn during this time",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yllenfer/WesbosClass.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yllenfer/WesbosClass/issues"
+  },
+  "homepage": "https://github.com/yllenfer/WesbosClass#readme"
+}
